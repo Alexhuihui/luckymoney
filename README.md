@@ -1,16 +1,9 @@
-# Getting Started
+# RESTFul API
+请求类型|请求路径|功能
+-------|------|------
+GET|/luckymoneys | 获取红包列表
+POST|/luckymoneys | 创建一个红包
+GET|/luckymoneys/id | 通过id查询红包
+PUT|/luckymoneys/id | 通过id更新红包
 
-### Reference Documentation
-For further reference, please consider the following sections:
-
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-
-### Guides
-The following guides illustrate how to use some features concretely:
-
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
-* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
-* [Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
 
