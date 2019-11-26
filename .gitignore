@@ -27,3 +27,4 @@ application-prod.yml
 
 ### VS Code ###
 .vscode/
+src/main/resources/static/
