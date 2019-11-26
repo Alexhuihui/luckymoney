@@ -5,7 +5,7 @@ server:
 
 #luckymoney
 limit:
-  minMoney: 0.01
+  minMoney: 0.1
   maxMoney: 9999
   description: 最少要发${limit.minMoney}元，最多${limit.maxMoney}
 

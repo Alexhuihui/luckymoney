@@ -18,4 +18,9 @@ public class HelloController {
     public String say() {
         return "description:" + limitConfig.getDescription();
     }
+
+    @GetMapping("/test/jrebel")
+    public String jrebel() {
+        return "jrebel 真香";
+    }
 }
